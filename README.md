@@ -1,4 +1,4 @@
-# Solarigate
+# Solorigate
 
 * SolarWinds Security Advisory \
 https://www.solarwinds.com/securityadvisory\
