@@ -82,7 +82,7 @@ The DLL then loads from the installation folder of the SolarWinds application. A
 • the NET Assembly cache folder (when compiled) 
 C:\Windows1System32\configlsystemprofile\AppData\Local\assembly\tmp)&lt;random-named folder&gt; SolarWinds.Orion.Core.BusinessLayer.dll 
  
-While Microsoft researcher observed malicious code from the attacker activated only when running under SolarWinds.BusinessLayerHost.exe process context, for the DLL samples currently analyzed, Microsoft Researchers have also seen different SolarWinds processes potentially loading the malicious library. The following list is again non-exhaustive as the situation is still developing at this point. We recommend monitoring the history and network or process activity of this SolarWinds process closely, especially activity coming from SolarWinds.BusinessLayerHostexe: 
+While Microsoft researcher observed malicious code from the attacker activated only when running under SolarWinds.BusinessLayerHost.exe process context, for the DLL samples currently analyzed, Microsoft Researchers have also seen different SolarWinds processes potentially loading the malicious library. The following list is again non-exhaustive as the situation is still developing at this point. We recommend monitoring the history and network or process activity of this SolarWinds process closely, especially activity coming from SolarWinds.BusinessLayerHost.exe: 
  
 • ConfigurationWizard.exe \
 • NetflowDatabaseMaintenance.exe \
