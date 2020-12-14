@@ -11,8 +11,8 @@ Date first seen: March 2020
 Sha256: dab758bf98d9b36fa057a66cd0284737abf89857b73ca89280267ee7caf62f3b 
 Sha 1: 1acf3108bf1e376c8848fbb25dc87424f2c2a39c 
 File Size: 1028072 bytes
- File Version: 2020.2.100.12219 
-Date first seen: March 2020 • 
+File Version: 2020.2.100.12219 
+Date first seen: March 2020 
 
 Sha256: eb6fab5a2964c5817fb239a7a5079cabca0a00464fb3e07155f28b0a57a2c0ed 
 Sha 1t: e257236206e99f5a5c62035c9c59c57206728b28 
