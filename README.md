@@ -2,63 +2,62 @@
 
 DLL IoCs
 
-Sha256: 32519685c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 
-Sha1: 76640508b1e7759e548771a5359eaed353bfleec 
-File Size: 1011032 bytes 
-File Version: 2019.4.5200.9083 
+Sha256: 32519685c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77\
+Sha1: 76640508b1e7759e548771a5359eaed353bfleec \
+File Size: 1011032 bytes \
+File Version: 2019.4.5200.9083 \
 Date first seen: March 2020 
 
-Sha256: dab758bf98d9b36fa057a66cd0284737abf89857b73ca89280267ee7caf62f3b 
-Sha 1: 1acf3108bf1e376c8848fbb25dc87424f2c2a39c 
-File Size: 1028072 bytes
-File Version: 2020.2.100.12219 
+Sha256: dab758bf98d9b36fa057a66cd0284737abf89857b73ca89280267ee7caf62f3b \
+Sha 1: 1acf3108bf1e376c8848fbb25dc87424f2c2a39c \
+File Size: 1028072 bytes\
+File Version: 2020.2.100.12219 \
 Date first seen: March 2020 
 
-Sha256: eb6fab5a2964c5817fb239a7a5079cabca0a00464fb3e07155f28b0a57a2c0ed 
-Sha 1t: e257236206e99f5a5c62035c9c59c57206728b28 
-File Size: 1026024 bytes 
-File Version: 2020.2.100.11831 
+Sha256: eb6fab5a2964c5817fb239a7a5079cabca0a00464fb3e07155f28b0a57a2c0ed \
+Sha 1t: e257236206e99f5a5c62035c9c59c57206728b28 \
+File Size: 1026024 bytes \
+File Version: 2020.2.100.11831 \
 Date first seen: March 2020 
 
-Sha256: c09040d35630d75dfef0f804f320f8b3d16a481071076918e9b236a321c1ea77 
-Sha 1: bcb5a4dcbc60d26a5f619518f2cfcl b4bb4e4387 
-File Size: 1026024 bytes
-File Version: not available 
+Sha256: c09040d35630d75dfef0f804f320f8b3d16a481071076918e9b236a321c1ea77 \
+Sha 1: bcb5a4dcbc60d26a5f619518f2cfcl b4bb4e4387 \
+File Size: 1026024 bytes\
+File Version: not available \
 Date first seen: March 2020 
 
 Sha256: acl1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c 
 
-Sha256: a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc 
-Sha1: 5e643654179e8b4cfe1d3c1906a90a4c8d611cea 
-File Size: 934232 bytes 
-File Version: 2019.4.5200.8890 
+Sha256: a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc \
+Sha1: 5e643654179e8b4cfe1d3c1906a90a4c8d611cea \
+File Size: 934232 bytes \
+File Version: 2019.4.5200.8890 \
 Date first seen: October 2019 
  
-Sha256: d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af 
-Sha1: ebe711516d0f5cd8126f4d53e375c90b7b95e8f2 
-File Size: 940304 bytes
-File Version: 2019.4.5200.8890 
+Sha256: d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af \
+Sha1: ebe711516d0f5cd8126f4d53e375c90b7b95e8f2 \
+File Size: 940304 bytes\
+File Version: 2019.4.5200.8890 \
 Date first seen: October 2019 
 
-=== From Microsoft ===
+* From Microsoft Regarding Code Singing Cert *
 The attackers compromised signed libraries that used the target companies' own digital certificates, attempting to evade application control technologies. Microsoft already removed these certificates from its trusted list. The certificate details with the signer hash are shown below: 
  
-"Signer": "Solarwinds Worldwide, LLC", 
+"Signer": "Solarwinds Worldwide, LLC", \
 "SignerHash": "47d92d49e6f7f296260dalaf355f941eb25360c4"
  
-The DLL then loads from the installation folder of the SolarWinds application. Afterwards, the main implant installs as a Windows service and as a DLL file in the following path using a folder with different names. 
-• installation folder , for example, <drive letter>:)Program Files (x86))SolarWinds)Orion)SolarWinds.Orion.Core.BusinessLayerdll 
+The DLL then loads from the installation folder of the SolarWinds application. Afterwards, the main implant installs as a Windows service and as a DLL file in the following path using a folder with different names. \
+• installation folder , for example, <drive letter>:)Program Files (x86))SolarWinds)Orion)SolarWinds.Orion.Core.BusinessLayerdll \
 • the NET Assembly cache folder (when compiled) 
 C:\Windows1System32\configlsystemprofile\AppData\Local\assembly\tmp)<random-named folder) SolarWinds.Orion.Core.BusinessLayer.dll 
  
-While Microsoft researcher observed malicious code from the attacker activated only when running under SolarWinds.BusinessLayerHost.exe process context, for the DLL samples currently analyzed, Microsoft Researchers have also seen different SolarWinds processes potentially loading the malicious library. The following list is again non-exhaustive as the situation is still developing at this point. We recommend monitoring the history and network or process activity of this SolarWinds process closely, especially activity coming from 
-SolarWinds.BusinessLayerHostexe: 
+While Microsoft researcher observed malicious code from the attacker activated only when running under SolarWinds.BusinessLayerHost.exe process context, for the DLL samples currently analyzed, Microsoft Researchers have also seen different SolarWinds processes potentially loading the malicious library. The following list is again non-exhaustive as the situation is still developing at this point. We recommend monitoring the history and network or process activity of this SolarWinds process closely, especially activity coming from SolarWinds.BusinessLayerHostexe: 
  
-• ConfigurationWizard.exe 
-• NetflowDatabaseMaintenance.exe 
-• NetFlowService.exe 
-• SolarWinds.Administration.exe 
-• SolarWinds.BusinessLayerHost.exe 
-• SolarWinds.Collector.Service.exe 
+• ConfigurationWizard.exe \
+• NetflowDatabaseMaintenance.exe \
+• NetFlowService.exe \
+• SolarWinds.Administration.exe \
+• SolarWinds.BusinessLayerHost.exe \
+• SolarWinds.Collector.Service.exe \
 • SolarwindsDiagnostics.exe 
  
