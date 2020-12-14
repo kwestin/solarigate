@@ -20,7 +20,7 @@ https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breache
 * US NTIA
 https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breached-by-hackers-backed-by-foreign-government-sources-idUSL1N2IT0JG \
 * FireEye
-https://www.zdnet.com/article/microsoft-fireeye-confirm-solarwinds-supply-chain-attack/ \
+https://www.zdnet.com/article/microsoft-fireeye-confirm-solarwinds-supply-chain-attack/ 
 
 # C2 #
 avsvmcloud.com 
