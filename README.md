@@ -13,6 +13,15 @@ https://cyber.dhs.gov/ed/21-01/
 * Important steps for customers to protect themselves from recent nation-state cyberattacks \
 https://blogs.microsoft.com/on-the-issues/2020/12/13/customers-protect-nation-state-cyberattacks/
 
+# Known Victims So Far #
+
+* US Treasury \
+https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breached-by-hackers-backed-by-foreign-government-sources-idUSL1N2IT0JG \
+* US NTIA
+https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breached-by-hackers-backed-by-foreign-government-sources-idUSL1N2IT0JG \
+* FireEye
+https://www.zdnet.com/article/microsoft-fireeye-confirm-solarwinds-supply-chain-attack/ \
+
 # C2 #
 avsvmcloud.com 
 
