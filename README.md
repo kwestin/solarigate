@@ -9,6 +9,8 @@ https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-
 * DHS Emergency Directive \
 https://cyber.dhs.gov/ed/21-01/
 
+# C2 #
+avsvmcloud.com 
 
 
 # DLL IoCs #
