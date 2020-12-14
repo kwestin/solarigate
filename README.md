@@ -2,7 +2,7 @@
 
 SolarWinds 8-K describing the issue stated that around 18,000 customers were affected. They indicated that it was Microsoft Office 365 as the initial attack vector. SolarWinds, in collaboration with Microsoft,has taken remediation steps to address the compromise and is investigating whether further remediation steps are required, over what period of time this compromise existed and whether this compromise is associated with the attack on its Orion software build system. SolarWinds also is investigating in collaboration with Microsoft as to whether any customer, personnel or other data was exfiltrated as a result of this compromise but has uncovered no evidence at this time of any such exfiltration.
 
-* SolarWinds Security Advisory 
+* SolarWinds Security Advisory \
 https://www.solarwinds.com/securityadvisory \
 * Microsoft labeled the attack "Solorigate" \
 https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Behavior:Win32/Solorigate.C!dha&ThreatID=2147771132\
