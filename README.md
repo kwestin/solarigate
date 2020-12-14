@@ -26,7 +26,26 @@ File Size: 1026024 bytes\
 File Version: not available \
 Date first seen: March 2020 
 
-Sha256: acl1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c 
+Sha256: ac1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c \
+Sha1: 6fdd82b7ca1c1f0ec67c05b36d14c9517065353b \
+File Size: 1029096 bytes \
+File Version: 2020.4.100.478 \
+Date first seen: April 2020 
+
+Sha256: 019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134 \
+Sha1: 2f1a5a7411d015d01aaee4535835400191645023 \
+File Size: 1028072 bytes \
+File Version: 2020.2.5200.12394 \
+Date first seen: April 2020 
+
+Sha1: d130bd75645c2433f88ac03e73395fba172ef676 \
+Sha256: ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0bOaa8211fe858d6 \
+Sha1: d130bd75645c2433f88ac03e73395fba172ef676 \
+File Size: 1028072 bytes \
+File Version: 2020.2.5300.12432\
+Date first seen: May 2020 
+
+** Older DLLs used **
 
 Sha256: a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc \
 Sha1: 5e643654179e8b4cfe1d3c1906a90a4c8d611cea \
