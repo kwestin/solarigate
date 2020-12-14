@@ -1,6 +1,6 @@
 # solarigate
 
-DLL IoCs
+#DLL IoCs#
 
 Sha256: 32519685c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77\
 Sha1: 76640508b1e7759e548771a5359eaed353bfleec \
@@ -40,7 +40,8 @@ File Size: 940304 bytes\
 File Version: 2019.4.5200.8890 \
 Date first seen: October 2019 
 
-* From Microsoft Regarding Code Singing Cert *
+#From Microsoft Regarding Code Singing Cert#
+
 The attackers compromised signed libraries that used the target companies' own digital certificates, attempting to evade application control technologies. Microsoft already removed these certificates from its trusted list. The certificate details with the signer hash are shown below: 
  
 "Signer": "Solarwinds Worldwide, LLC", \
