@@ -13,6 +13,17 @@ https://cyber.dhs.gov/ed/21-01/
 * Important steps for customers to protect themselves from recent nation-state cyberattacks \
 https://blogs.microsoft.com/on-the-issues/2020/12/13/customers-protect-nation-state-cyberattacks/
 
+# Security Tool Detection Resources #
+
+* Elastic Security provides free and open protections for SUNBURST  \
+https://www.elastic.co/blog/elastic-security-provides-free-and-open-protections-for-sunburst
+
+* Finding SUNBURST backdoor with Zeek logs & Corelight \
+https://corelight.blog/2020/12/15/finding-sunburst-backdoor-with-zeek-logs-and-corelight/
+
+* Using Splunk to Detect Sunburst Backdoor \
+https://www.splunk.com/en_us/blog/security/sunburst-backdoor-detections-in-splunk.html
+
 # Known Victims  #
 
 * US Treasury \
