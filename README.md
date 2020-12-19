@@ -37,10 +37,13 @@ https://github.com/bambenek/research/blob/main/sunburst/uniq-hostnames.txt
 
 # Known Victims  #
 
-* US Treasury \
-https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breached-by-hackers-backed-by-foreign-government-sources-idUSL1N2IT0JG \
+* US Treasury
+* US Department of Energy
+* US Homeland Security
 * US NTIA
-https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breached-by-hackers-backed-by-foreign-government-sources-idUSL1N2IT0JG \
+* National Nuclear Security Administration
+* National Institutes of Health
+* 
 * FireEye
 https://www.zdnet.com/article/microsoft-fireeye-confirm-solarwinds-supply-chain-attack/ 
 
