@@ -5,7 +5,8 @@
 * SolarWinds Security Advisory \
 https://www.solarwinds.com/securityadvisory 
 * Microsoft labeled the attack "Solorigate" \
-https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Behavior:Win32/Solorigate.C!dha&ThreatID=2147771132\
+https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Behavior:Win32/Solorigate.C!dha&ThreatID=2147771132 \
+https://www.microsoft.com/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/ \
 * FireEye refers to the backdoor as SUNBURST. The campaign is tracked as UNC2452\
 https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\
 * DHS Emergency Directive \
@@ -43,7 +44,7 @@ https://www.reuters.com/article/usa-cyber-treasury/exclusive-us-treasury-breache
 * FireEye
 https://www.zdnet.com/article/microsoft-fireeye-confirm-solarwinds-supply-chain-attack/ 
 
-# C2 #
+# Command and Control #
 avsvmcloud.com 
 
 
